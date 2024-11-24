@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+
+.wrapper{
+   width: 1500px;
+   margin: auto;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.navbar{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__logo{
+    width: 250px;
+
+}
+
+.navbar__list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar__link{
+    /* Projects */
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 160% */
+
+color: #1B1A1A;
+
+
+}
+
+.navbar__link:hover{
+    color: rgb(49, 49, 49);
+}
+
+.navbar__link:active{
+    color: rgb(37, 140, 142);
+}
+
+.navbar__btn{
+    /* Frame */
+
+
+
+
+/* Rectangle */
+
+
+
+background: #1B1A1A;
+border-radius: 14px;
+width: 200px;
+height: 40px;
+border-radius: 10px;
+
+
+/* Get template */
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.4px;
+
+color: #FFFFFF;
+
+
+}
+
+.navbar__btn:hover{
+    background-color: #5c5a5a;
+}
+
+.intro{
+    width: 100%;
+    background-color: #ECE7E4;
+    padding: 50px 0;
+}
+
+.intro__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1350px;
+    margin: auto;
+}
+
+.intro__text{
+    /* We are an architecture firm with a focus on beautiful but functional design. At its heart, we believe design is about usability and accessibility — these are the guiding principles for our work. Read more about our previous projects, our process and our team below. */
+
+/* Wishbone+Partners */
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #5c5956;
+
+
+
+}
+
+
+.intro__title{
+    /* The home of beautiful architecture. */
+width: 450px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 70px;
+/* or 110% */
+
+color: #1B1A1A;
+
+
+}
+
+.into__subtext{
+    /* We are an architecture firm with a focus on beautiful but functional design. At its heart, we believe design is about usability and accessibility — these are the guiding principles for our work. Read more about our previous projects, our process and our team below. */
+
+width: 510px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+color: #403E3B;
+
+
+}
+
+.intro__btn{
+
+
+border-radius: 14px;
+
+
+/* Read more */
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.4px;
+
+color: #1B1A1A;
+border: none;
+background-color: inherit;
+
+}
+
+.intro__left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.our{
+    width: 100%;
+    padding: 50px 0;
+}
+
+.our__wrapper{
+    margin: auto;
+    align-items: start;
+    gap: 150px;
+    width: 800px;
+    display: flex;
+}
+
+.our__title{
+    /* Our firm */
+
+width: 150px;
+
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height, or 119% */
+
+color: #403E3B;
+
+
+}
+
+.our__text{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere. */
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+color: #403E3B;
+margin-bottom: 30px;
+
+
+}
+
+.our__card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.our__subtitle{
+    /* Stephen Collier */
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 26px;
+/* identical to box height, or 153% */
+
+color: #1B1A1A;
+
+
+}
+
+.our__subtext{
+    /* Senior Partner */
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+
+color: #645C55;
+
+
+}
+
+.reading{
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    height: 600px;
+    background-image: url(image/IMAGE\ \(3\).png);
+    margin: auto;
+    padding: 50px 0;
+    background-repeat: no-repeat;
+    justify-content: end;
+    background-size: cover;
+}
+
+.reading__wrapper{
+    width: 300px;
+}
+
+.reading__wrapper h2{
+    /* Reeding House */
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #403E3B;
+
+
+}
+
+.reading__wrapper p{
+    /* Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet. */
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+color: #645C55;
+
+
+}
